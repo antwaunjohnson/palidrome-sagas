@@ -1,20 +1,44 @@
 :root {
-  --primary: #1d5888;
-  --secondary: #ff993b;
-  --dark: #292929;
+  --primary: #392759;
+  --secondary: #7e8287;
+  --dark: #383644;
   --white: #e2e4e2;
+  --accent: #523880;
 }
 
-body {
+body,
+.lead {
   color: var(--dark);
+  font-family: ff-karbid-text-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#sagas {
+  color: var(--accent);
+}
+
+.logo-font {
+  font-family: neplus, serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 nav {
-  background: var(--dark);
+  background: var(--primary);
 }
 
+.btn-link {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  background: var(--primary);
+  color: var(--white);
+}
 footer {
-  background-color: var(--dark);
+  background-color: var(--primary);
   padding: 1rem;
 }
 
@@ -34,7 +58,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary);
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .bsicon {
   color: rgb(85, 60, 123);
